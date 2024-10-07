@@ -1,0 +1,45 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/AdvikaDeodhar/.Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_Sim_behav xil_defaultlib.Top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'validate' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/Top.sv:54]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'memValid' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/Top.sv:124]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'MEM_VALID' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/Top.sv:138]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv:104]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv:147]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv:196]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv:201]
+WARNING: [VRFC 10-5021] port 'L1_write' is not connected on this instance [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/Top.sv:89]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'memRead' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:101]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'CLA_read' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:102]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'CLA_write' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:103]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'CLA_write' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:148]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'up' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:150]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'memWrite' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:164]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'CLA_read' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:165]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'up' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:166]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'memRead' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:181]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'memWrite' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:182]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'CLA_write' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:184]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'up' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:186]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'up' [C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sources_1/new/CacheController1.sv:200]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 104, File C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 147, File C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 196, File C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 201, File C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.myCache
+Compiling module xil_defaultlib.MUX_2to1
+Compiling module xil_defaultlib.CacheLineAdapter
+Compiling module xil_defaultlib.CacheController
+Compiling module xil_defaultlib.SinglePortDelayMemory
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.Top_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_Sim_behav

@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+filled all the lines in the sets properly
+$stop called at time : 4515 ns : File "C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv" Line 134
+PASS: Cache miss without dirty bit test passed
+$stop called at time : 4825 ns : File "C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv" Line 155
+Fatal: Write-back handling failed, got deadbeef should be cafebeef
+Time: 5135 ns  Iteration: 0  Process: /Top_Sim/Initial51_22  Scope: Top_Sim  File: C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv Line: 196
+$finish called at time : 5135 ns
+Cache miss with write-back test passed
+$stop called at time : 5155 ns : File "C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.srcs/sim_1/new/Top_Sim.sv" Line 209

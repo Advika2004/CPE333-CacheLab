@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Lab_3.srcs/sources_1/new/CacheController1.sv" \
+"../../../../Lab_3.srcs/sources_1/new/CacheLineAdapter1.sv" \
+"../../../../Lab_3.srcs/sources_1/new/MUX_2to1.sv" \
+"../../../../Lab_3.srcs/sources_1/new/SinglePortDelayMemory1.sv" \
+"../../../../Lab_3.srcs/sources_1/new/Top.sv" \
+"../../../../Lab_3.srcs/sources_1/new/myCache.sv" \
+"../../../../Lab_3.srcs/sim_1/new/Top_Sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

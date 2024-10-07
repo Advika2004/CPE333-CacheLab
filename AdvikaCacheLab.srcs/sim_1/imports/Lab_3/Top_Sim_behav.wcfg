@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Top_Sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Top_Sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4,560.977 ns"></ZoomStartTime>
+      <ZoomEndTime time="4,685.805 ns"></ZoomEndTime>
+      <Cursor1Time time="4,635.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="193"></NameColumnWidth>
+      <ValueColumnWidth column_width="77"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="63" />
+   <wave_markers>
+      <marker time="4665000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/Top_Sim/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/DATA_IN" type="array">
+      <obj_property name="ElementShortName">DATA_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/Controller/memValidWorld" type="logic">
+      <obj_property name="ElementShortName">memValidWorld</obj_property>
+      <obj_property name="ObjectShortName">memValidWorld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider6">
+      <obj_property name="label">writing to cache test</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FAAFBE</obj_property>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">Writing to Cache</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data1" type="array">
+         <obj_property name="ElementShortName">data1[0:7][0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data1[0:7][0:7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit" type="logic">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/addr_in" type="array">
+         <obj_property name="ElementShortName">addr_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/cache_we" type="logic">
+         <obj_property name="ElementShortName">cache_we</obj_property>
+         <obj_property name="ObjectShortName">cache_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit0" type="logic">
+         <obj_property name="ElementShortName">hit0</obj_property>
+         <obj_property name="ObjectShortName">hit0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit1" type="logic">
+         <obj_property name="ElementShortName">hit1</obj_property>
+         <obj_property name="ObjectShortName">hit1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/dirty0" type="array">
+         <obj_property name="ElementShortName">dirty0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dirty0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/dirty1" type="array">
+         <obj_property name="ElementShortName">dirty1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dirty1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/index" type="array">
+         <obj_property name="ElementShortName">index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">index[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/word_off" type="array">
+         <obj_property name="ElementShortName">word_off[2:0]</obj_property>
+         <obj_property name="ObjectShortName">word_off[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data1" type="array">
+         <obj_property name="ElementShortName">data1[0:7][0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data1[0:7][0:7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data0" type="array">
+         <obj_property name="ElementShortName">data0[0:7][0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data0[0:7][0:7][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider34">
+      <obj_property name="label">Reading to Cache Test</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#00FFFF</obj_property>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">Reading to Cache</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/addr_in" type="array">
+         <obj_property name="ElementShortName">addr_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/addr_out" type="array">
+         <obj_property name="ElementShortName">addr_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/LRU" type="array">
+         <obj_property name="ElementShortName">LRU[7:0]</obj_property>
+         <obj_property name="ObjectShortName">LRU[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/tag0" type="array">
+         <obj_property name="ElementShortName">tag0[0:7][23:0]</obj_property>
+         <obj_property name="ObjectShortName">tag0[0:7][23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/tag1" type="array">
+         <obj_property name="ElementShortName">tag1[0:7][23:0]</obj_property>
+         <obj_property name="ObjectShortName">tag1[0:7][23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/cache_re" type="logic">
+         <obj_property name="ElementShortName">cache_re</obj_property>
+         <obj_property name="ObjectShortName">cache_re</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit0" type="logic">
+         <obj_property name="ElementShortName">hit0</obj_property>
+         <obj_property name="ObjectShortName">hit0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit1" type="logic">
+         <obj_property name="ElementShortName">hit1</obj_property>
+         <obj_property name="ObjectShortName">hit1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit" type="logic">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/dirty0" type="array">
+         <obj_property name="ElementShortName">dirty0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dirty0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/dirty1" type="array">
+         <obj_property name="ElementShortName">dirty1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dirty1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data0" type="array">
+         <obj_property name="ElementShortName">data0[0:7][0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data0[0:7][0:7][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/valid0" type="array">
+         <obj_property name="ElementShortName">valid0[0:7]</obj_property>
+         <obj_property name="ObjectShortName">valid0[0:7]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/L1_Cache/valid1" type="array">
+         <obj_property name="ElementShortName">valid1[0:7]</obj_property>
+         <obj_property name="ObjectShortName">valid1[0:7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/PS" type="array">
+         <obj_property name="ElementShortName">PS[2:0]</obj_property>
+         <obj_property name="ObjectShortName">PS[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group101" type="group">
+      <obj_property name="label">Cache Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/L1_write" type="logic">
+         <obj_property name="ElementShortName">L1_write</obj_property>
+         <obj_property name="ObjectShortName">L1_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/L1_read" type="logic">
+         <obj_property name="ElementShortName">L1_read</obj_property>
+         <obj_property name="ObjectShortName">L1_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/CLA_write" type="logic">
+         <obj_property name="ElementShortName">CLA_write</obj_property>
+         <obj_property name="ObjectShortName">CLA_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/data_sel" type="logic">
+         <obj_property name="ElementShortName">data_sel</obj_property>
+         <obj_property name="ObjectShortName">data_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/up" type="logic">
+         <obj_property name="ElementShortName">up</obj_property>
+         <obj_property name="ObjectShortName">up</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/memRead" type="logic">
+         <obj_property name="ElementShortName">memRead</obj_property>
+         <obj_property name="ObjectShortName">memRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/memWrite" type="logic">
+         <obj_property name="ElementShortName">memWrite</obj_property>
+         <obj_property name="ObjectShortName">memWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/hit" type="logic">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/memValid" type="logic">
+         <obj_property name="ElementShortName">memValid</obj_property>
+         <obj_property name="ObjectShortName">memValid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/up" type="logic">
+         <obj_property name="ElementShortName">up</obj_property>
+         <obj_property name="ObjectShortName">up</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/dirty" type="logic">
+         <obj_property name="ElementShortName">dirty</obj_property>
+         <obj_property name="ObjectShortName">dirty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/CLA_read" type="logic">
+         <obj_property name="ElementShortName">CLA_read</obj_property>
+         <obj_property name="ObjectShortName">CLA_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/CLA_write" type="logic">
+         <obj_property name="ElementShortName">CLA_write</obj_property>
+         <obj_property name="ObjectShortName">CLA_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/L1_write" type="logic">
+         <obj_property name="ElementShortName">L1_write</obj_property>
+         <obj_property name="ObjectShortName">L1_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/L1_read" type="logic">
+         <obj_property name="ElementShortName">L1_read</obj_property>
+         <obj_property name="ObjectShortName">L1_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/data_sel" type="logic">
+         <obj_property name="ElementShortName">data_sel</obj_property>
+         <obj_property name="ObjectShortName">data_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/addr_sel" type="logic">
+         <obj_property name="ElementShortName">addr_sel</obj_property>
+         <obj_property name="ObjectShortName">addr_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/NS" type="array">
+         <obj_property name="ElementShortName">NS[2:0]</obj_property>
+         <obj_property name="ObjectShortName">NS[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/PS" type="array">
+         <obj_property name="ElementShortName">PS[2:0]</obj_property>
+         <obj_property name="ObjectShortName">PS[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group134" type="group">
+      <obj_property name="label">CLA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/addr_in" type="array">
+         <obj_property name="ElementShortName">addr_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/up" type="logic">
+         <obj_property name="ElementShortName">up</obj_property>
+         <obj_property name="ObjectShortName">up</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/clr" type="logic">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/L1_write" type="logic">
+         <obj_property name="ElementShortName">L1_write</obj_property>
+         <obj_property name="ObjectShortName">L1_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/MM_data_out" type="array">
+         <obj_property name="ElementShortName">MM_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MM_data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/L1_data_out" type="array">
+         <obj_property name="ElementShortName">L1_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">L1_data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/MM_addr_out" type="array">
+         <obj_property name="ElementShortName">MM_addr_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MM_addr_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/L1_addr_out" type="array">
+         <obj_property name="ElementShortName">L1_addr_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">L1_addr_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/rco" type="logic">
+         <obj_property name="ElementShortName">rco</obj_property>
+         <obj_property name="ObjectShortName">rco</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/CLA_write" type="logic">
+         <obj_property name="ElementShortName">CLA_write</obj_property>
+         <obj_property name="ObjectShortName">CLA_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/CLA_read" type="logic">
+         <obj_property name="ElementShortName">CLA_read</obj_property>
+         <obj_property name="ObjectShortName">CLA_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/count" type="array">
+         <obj_property name="ElementShortName">count[2:0]</obj_property>
+         <obj_property name="ObjectShortName">count[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA/CLA_ARRAY" type="array">
+         <obj_property name="ElementShortName">CLA_ARRAY[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">CLA_ARRAY[0:7][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/PS" type="array">
+         <obj_property name="ElementShortName">PS[2:0]</obj_property>
+         <obj_property name="ObjectShortName">PS[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA_ADDR_MUX/SEL" type="logic">
+         <obj_property name="ElementShortName">SEL</obj_property>
+         <obj_property name="ObjectShortName">SEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA_ADDR_MUX/D0" type="array">
+         <obj_property name="ElementShortName">D0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">D0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA_ADDR_MUX/D1" type="array">
+         <obj_property name="ElementShortName">D1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">D1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA_ADDR_MUX/D_OUT" type="array">
+         <obj_property name="ElementShortName">D_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">D_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/CLA_ADDR_MUX/n" type="array">
+         <obj_property name="ElementShortName">n[31:0]</obj_property>
+         <obj_property name="ObjectShortName">n[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group155" type="group">
+      <obj_property name="label">MM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_Sim/myTop/Main_Memory/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Main_Memory/RE" type="logic">
+         <obj_property name="ElementShortName">RE</obj_property>
+         <obj_property name="ObjectShortName">RE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Main_Memory/WE" type="logic">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Main_Memory/DATA_IN" type="array">
+         <obj_property name="ElementShortName">DATA_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Main_Memory/ADDR" type="array">
+         <obj_property name="ElementShortName">ADDR[29:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR[29:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Main_Memory/DATA_OUT" type="array">
+         <obj_property name="ElementShortName">DATA_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Main_Memory/DELAY_CYCLES" type="array">
+         <obj_property name="ElementShortName">DELAY_CYCLES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DELAY_CYCLES[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_Sim/myTop/Main_Memory/BURST_LEN" type="array">
+         <obj_property name="ElementShortName">BURST_LEN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BURST_LEN[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider280">
+      <obj_property name="label">overwriting line</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group279" type="group">
+      <obj_property name="label">Overwriting a line test</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Top_Sim/myTop/Controller/PS" type="array">
+         <obj_property name="ElementShortName">PS[2:0]</obj_property>
+         <obj_property name="ObjectShortName">PS[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/addr_in" type="array">
+      <obj_property name="ElementShortName">addr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/cache_we" type="logic">
+      <obj_property name="ElementShortName">cache_we</obj_property>
+      <obj_property name="ObjectShortName">cache_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data0" type="array">
+      <obj_property name="ElementShortName">data0[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data0[0:7][0:7][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data1" type="array">
+      <obj_property name="ElementShortName">data1[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[0:7][0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit0" type="logic">
+      <obj_property name="ElementShortName">hit0</obj_property>
+      <obj_property name="ObjectShortName">hit0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/Controller/NS" type="array">
+      <obj_property name="ElementShortName">NS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">NS[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/Controller/PS" type="array">
+      <obj_property name="ElementShortName">PS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_write" type="logic">
+      <obj_property name="ElementShortName">L1_write</obj_property>
+      <obj_property name="ObjectShortName">L1_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/LRU" type="array">
+      <obj_property name="ElementShortName">LRU[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LRU[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider351">
+      <obj_property name="label">replacing line tesy</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/addr_in" type="array">
+      <obj_property name="ElementShortName">addr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/cache_re" type="logic">
+      <obj_property name="ElementShortName">cache_re</obj_property>
+      <obj_property name="ObjectShortName">cache_re</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit0" type="logic">
+      <obj_property name="ElementShortName">hit0</obj_property>
+      <obj_property name="ObjectShortName">hit0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/Controller/NS" type="array">
+      <obj_property name="ElementShortName">NS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">NS[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/Controller/PS" type="array">
+      <obj_property name="ElementShortName">PS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data0" type="array">
+      <obj_property name="ElementShortName">data0[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data0[0:7][0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data1" type="array">
+      <obj_property name="ElementShortName">data1[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[0:7][0:7][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/index" type="array">
+      <obj_property name="ElementShortName">index[2:0]</obj_property>
+      <obj_property name="ObjectShortName">index[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider2254">
+      <obj_property name="label">writing back miss &amp; dirty</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/addr_in" type="array">
+      <obj_property name="ElementShortName">addr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/addr_out" type="array">
+      <obj_property name="ElementShortName">addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data0" type="array">
+      <obj_property name="ElementShortName">data0[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data0[0:7][0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/data1" type="array">
+      <obj_property name="ElementShortName">data1[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[0:7][0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit0" type="logic">
+      <obj_property name="ElementShortName">hit0</obj_property>
+      <obj_property name="ObjectShortName">hit0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/hit1" type="logic">
+      <obj_property name="ElementShortName">hit1</obj_property>
+      <obj_property name="ObjectShortName">hit1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/dirty" type="logic">
+      <obj_property name="ElementShortName">dirty</obj_property>
+      <obj_property name="ObjectShortName">dirty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/dirty0" type="array">
+      <obj_property name="ElementShortName">dirty0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dirty0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/dirty1" type="array">
+      <obj_property name="ElementShortName">dirty1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dirty1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/cache_we" type="logic">
+      <obj_property name="ElementShortName">cache_we</obj_property>
+      <obj_property name="ObjectShortName">cache_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/cache_re" type="logic">
+      <obj_property name="ElementShortName">cache_re</obj_property>
+      <obj_property name="ObjectShortName">cache_re</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/valid0" type="array">
+      <obj_property name="ElementShortName">valid0[0:7]</obj_property>
+      <obj_property name="ObjectShortName">valid0[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/valid1" type="array">
+      <obj_property name="ElementShortName">valid1[0:7]</obj_property>
+      <obj_property name="ObjectShortName">valid1[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/LRU" type="array">
+      <obj_property name="ElementShortName">LRU[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LRU[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/Controller/NS" type="array">
+      <obj_property name="ElementShortName">NS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">NS[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/Controller/PS" type="array">
+      <obj_property name="ElementShortName">PS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Sim/myTop/L1_Cache/index" type="array">
+      <obj_property name="ElementShortName">index[2:0]</obj_property>
+      <obj_property name="ObjectShortName">index[2:0]</obj_property>
+   </wvobject>
+</wave_config>

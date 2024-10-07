@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Oct  6 16:32:15 2024
+# Process ID: 2144
+# Current directory: C:/Users/Advika Deodhar/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17560
+# Log file: C:/Users/Advika Deodhar/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Advika Deodhar/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: Advika-Android, OS: Windows, CPU Frequency: 1797 MHz, CPU Physical cores: 16, Host memory: 19165 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Advika Deodhar/Downloads/DelasaCache/Lab_3/Lab_3.xpr}
+update_compile_order -fileset sources_1
+save_project_as AdvikaCacheLab {C:/Users/Advika Deodhar/Downloads/Desktop} -force
+import_files
+archive_project {C:/Users/Advika Deodhar/Downloads/Advika333Cache/Advika333Cache.xpr.zip} -temp_dir {C:/Users/Advika Deodhar/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-2144-Advika-Android} -force -include_local_ip_cache
